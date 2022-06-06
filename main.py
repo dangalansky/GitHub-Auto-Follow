@@ -3,7 +3,6 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import ElementNotInteractableException, NoSuchElementException
-import random
 
 #your login information
 USERNAME = YOUR USERNAME
@@ -13,7 +12,7 @@ PASSWORD = YOUR PASSWORD
 target_user = USERNAME
 
 # webdriver init
-ser = Service('/Users/dangalansky/Dropbox/Developer Tools/chromedriver')
+ser = Service('FILEPATH')
 driver = webdriver.Chrome(service=ser)
 driver.get('https://github.com/login')
 
