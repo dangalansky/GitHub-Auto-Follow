@@ -12,7 +12,7 @@ PASSWORD = YOUR PASSWORD
 target_user = USERNAME
 
 # webdriver init
-ser = Service('FILEPATH')
+ser = Service('FILEPATH where chromedriver is located')
 driver = webdriver.Chrome(service=ser)
 driver.get('https://github.com/login')
 
