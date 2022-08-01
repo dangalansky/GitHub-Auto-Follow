@@ -5,11 +5,11 @@ from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import ElementNotInteractableException, NoSuchElementException
 
 #your login information
-USERNAME = YOUR USERNAME
-PASSWORD = YOUR PASSWORD
+USERNAME = "YOUR USERNAME"
+PASSWORD = "YOUR PASSWORD"
 
 # who do you want to target for followers?
-target_user = USERNAME
+target_user = "USERNAME"
 
 # webdriver init
 ser = Service('FILEPATH where chromedriver is located')
